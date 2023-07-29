@@ -1,7 +1,7 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const HeroText = () => {
-  const name = "Arslan &apos;?";
+  const name = "Arslan";
 
   return (
     <div
