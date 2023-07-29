@@ -2,8 +2,8 @@ import styles from './style.module.scss';
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 import { slideUp, opacity } from './animation';
-import Rounded from '../../common/RoundedButton';
-export default function index() {
+import Rounded from '../../common/RoundedButton/RoundedButton';
+export default function Description() {
 
     const phrase = "I am a software engineer with a focus on full-stack development. I have experience working with a range of technologies, including React, Three js , React3Fiber, Python, and Solidity. I am constantly striving to learn and improve my skills, and I am excited to continue growing and developing as a software engineer.";
     const description = useRef(null);
@@ -14,7 +14,7 @@ export default function index() {
                 <p>
                 {
                     phrase.split(" ").map( (word, index) => {
-                        return <span className={styles.mask}><motion.span variants={slideUp} custom={index} animate={isInView ? "open" : "closed"} key={index}>{word}</motion.span></span>
+                        return <span className={styles.mask} key={`phrase${index}`}><motion.span variants={slideUp} custom={index} animate={isInView ? "open" : "closed"} key={index}>{word}</motion.span></span>
                     })
                 }
                 </p>

@@ -4,15 +4,10 @@ import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
 import Preloader from '../components/Preloader';
 import Landing from '../components/Landing';
-import Projects from '../components/Projects';
-import Description from '../components/Description';
-import SlidingImages from '../components/SlidingImages';
-import Contact from '../components/Contact';
-import ModelLaptop from '@/components/ModelLaptop/ModelLaptop';
-import Skills from '@/components/Skills/Skills';
-import MarqueeCards from '@/common/Marquee/MarqueeCard';
+
 import Hero from '@/components/Hero/Hero';
 import SkillsComponent from '@/components/Skills/SkillComponent';
+import Description from '@/components/Description/Description';
 
 export default function Home() {
 
@@ -40,12 +35,9 @@ export default function Home() {
       </AnimatePresence>
       <Landing />
       <Hero/>
-      <Description />
+     <Description/>
        <SkillsComponent/>
 
-      {/* <Projects /> */}
-      {/* <SlidingImages /> */}
-      {/* <Contact /> */}
     </main>
   )
 }

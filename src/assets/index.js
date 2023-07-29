@@ -23,8 +23,6 @@ import menu from './menu.svg';
 // Projects
 
 
-// Avatar
-import avatar from './avatar/avatar.png';
 
 export {
   menu,
