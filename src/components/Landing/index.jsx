@@ -24,14 +24,11 @@ export default function Home() {
     const updateWindowWidth = () => {
       setWindowWidth(window.innerWidth);
     };
+ window.addEventListener('resize', updateWindowWidth);
 
-    // Add event listener for window resize
-    window.addEventListener('resize', updateWindowWidth);
-
-    // Initial call to set the initial window width
     updateWindowWidth();
 
-    // Clean up the event listener when the component is unmounted
+   
     return () => window.removeEventListener('resize', updateWindowWidth);
   }, []);
 
@@ -66,9 +63,9 @@ export default function Home() {
   return (
     <motion.main variants={slideUp} initial="initial" animate="enter" className={styles.landing}>
       {windowWidth <= 450 ? (
-        <Image src="/images/backgroundmobile2.jpeg" fill={true} alt="background" />
+        <Image src="/images/backgroundMobile2.jpeg" fill={true} alt="background" />
       ) : (
-        <Image src="/images/background1.jpg" fill={true} alt="background" />
+        <Image src="/images/background1.jpeg" fill={true} alt="background" />
       )}
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>

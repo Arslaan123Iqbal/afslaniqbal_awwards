@@ -17,16 +17,12 @@ import pyIcon from './tech/py.png';
 import nodeIcon from './tech/node.webp';
 import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
-import close from './close.svg';
-import menu from './menu.svg';
 
-// Projects
 
 
 
 export {
-  menu,
-  close,
+
   htmlIcon,
   cssIcon,
   jsIcon,
@@ -43,5 +39,5 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
-  bl33hIcon,
+
 };
