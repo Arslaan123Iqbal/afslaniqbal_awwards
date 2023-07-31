@@ -1,0 +1,50 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+   @media screen and (max-width:768px){
+    grid-template-columns: repeat(2,1fr);
+   }
+   @media screen and (max-width:550px){
+    grid-template-columns: repeat(1,1fr);
+   }
+
+}
+
+.projectKeywords{
+    display: grid;
+    grid-auto-columns: auto;
+    gap: 10px;
+    color: #fff;
+    text-align: center;
+}
+.projectname{
+    text-transform: uppercase;
+    font-size: 24px;
+
+    border-bottom: 2px solid #808080;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.projectDescription{
+    font-weight: 100;
+    font-size: 18px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.projectImage{
+    height: 200px;
+    width: 800px;
+}
+.projectDivImage{
+    border-top: 80px solid#808080;
+    border-left: 25px solid #808080;
+    border-right: 25px solid #808080;
+    border-bottom: 80px solid #808080;
+}

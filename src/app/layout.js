@@ -1,9 +1,9 @@
 import Header from '@/components/Header/Header'
 import './globals.css'
-import { Roboto } from 'next/font/google'
+import {Poppins} from 'next/font/google'
 
 
-const inter = Roboto({ subsets: ['latin'] , weight:"400"})
+const inter = Poppins({ subsets: ['latin'] , weight:"400"})
 
 export const metadata = {
   title: 'Arslan Iqbal',

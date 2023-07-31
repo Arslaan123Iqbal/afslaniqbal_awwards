@@ -69,8 +69,8 @@ export default function Home() {
       )}
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
-          <p ref={firstText}>Software Engineer - </p>
-          <p ref={secondText}>FullStack Developer - </p>
+          <p ref={firstText}>SOFTWARE ENGINEER - </p>
+          <p ref={secondText}>FULLSTACK DEVELOPER - </p>
         </div>
       </div>
       <div data-scroll data-scroll-speed={0.1} className={styles.description}>

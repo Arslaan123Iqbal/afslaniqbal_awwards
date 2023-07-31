@@ -8,6 +8,8 @@ import Landing from '../components/Landing';
 import Hero from '@/components/Hero/Hero';
 import SkillsComponent from '@/components/Skills/SkillComponent';
 import Description from '@/components/Description/Description';
+import Contact from '@/components/Contacts/Contact';
+import Projects from '@/components/Projects/Projects';
 
 export default function Home() {
 
@@ -34,9 +36,13 @@ export default function Home() {
         {isLoading && <Preloader />}
       </AnimatePresence>
       <Landing />
-      <Hero/>
-     <Description/>
-       <SkillsComponent/>
+      <Hero />
+
+      <Description />
+
+      <SkillsComponent />
+      <Projects />
+      <Contact />
 
     </main>
   )
