@@ -144,11 +144,7 @@ const markerSvg = `<svg viewBox="-4 0 36 36">
   </svg>`;
 
 export {
-  media,
-  introduction,
-  projects,
-  memoji,
+
   skills,
   markerSvg,
-  icons,
 };
