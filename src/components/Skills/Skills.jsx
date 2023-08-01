@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './styles.module.scss'
+
 
 import { m, LazyMotion, domAnimation } from "framer-motion";
 import { skills } from '@/Constants/constants';

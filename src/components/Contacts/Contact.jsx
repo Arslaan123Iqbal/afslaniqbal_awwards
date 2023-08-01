@@ -7,12 +7,14 @@ import Typewriter from 'typewriter-effect';
 
 const conatctList = [
     {
-        name: "+923164547382",
-        image: "/contacts/whatsapp.png"
+        name: "https://wa.me/+923164547382",
+        image: "/contacts/whatsapp.png",
+        show:"+923164547382"
     },
     {
-        name: "+923065422488",
-        image: "/contacts/phone.png"
+        name: "tel:+923065422488",
+        image: "/contacts/phone.png",
+        show:"+923065422488"
     },
     {
         name: "https://www.linkedin.com/in/arslan-iqbal-7989961a0/",
@@ -23,8 +25,9 @@ const conatctList = [
         image: "/contacts/github.png"
     },
     {
-        name: "arslaniqbalmgt@gmail.com",
-        image: "/contacts/email.png"
+        name: "mailto:arslaniqbalmgt@gmail.com",
+        image: "/contacts/email.png",
+        show:"arslaniqbalmgt@gmail.com"
     },
     {
         name: "https://medium.com/@arslaniqbalmgt",
@@ -61,7 +64,7 @@ const Contact = () => {
                             conatctList.map((contact, i) =>
                                 <a href={contact.name} target='_blank' key={`${i}`} className={styles.links_search}>
                                     <Image className={styles.contactImage} src={contact.image} width={50} height={50} alt={`${i}`} />
-                                    <p>{contact.name}</p>
+                                    <p>{contact.show ? contact.show : contact.name}</p>
                                 </a>)
                         }
                     </div>
