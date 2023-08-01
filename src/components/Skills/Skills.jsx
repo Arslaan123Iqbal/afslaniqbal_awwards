@@ -17,7 +17,13 @@ const Skills = () => {
           initial={{ scale: 0.8 }}
           animate={{
             rotate: [0, 10, 0],
+        
           }}
+          whileHover={
+            {
+              rotate:[0,0,0]
+            }
+          }
           transition={{
             duration: 1,
             repeat: Infinity,
