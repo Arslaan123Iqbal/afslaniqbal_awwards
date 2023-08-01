@@ -10,19 +10,19 @@ import Footer from './Footer';
 const navItems = [
   {
     title: "Home",
-    href: "/",
+    href: "#home",
   },
   {
-    title: "Work",
-    href: "/work",
+    title: "Skills",
+    href: "#skills",
   },
   {
-    title: "About",
-    href: "/about",
+    title: "Projects",
+    href: "#projects",
   },
   {
     title: "Contact",
-    href: "/contact",
+    href: "#contact",
   },
 ]
 
@@ -42,7 +42,7 @@ export default function Nav() {
        <div className={styles.body}>
             <div onMouseLeave={() => {setSelectedIndicator(pathname)}} className={styles.nav}>
                     <div className={styles.header}>
-                        <p>Navigation</p>
+                        <p>Arslan Iqbal</p>
                     </div>
                     {
                       navItems.map( (data, index) => {

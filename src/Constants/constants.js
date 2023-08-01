@@ -6,17 +6,14 @@ import {
   jsIcon,
   reactIcon,
   awsIcon,
-  javaIcon,
   gitIcon,
   githubIcon,
-  psqlIcon,
   eslintIcon,
   pyIcon,
   viteIcon,
   nodeIcon,
-  raspIcon,
-  neoIcon,
   figmaIcon,
+  nextjs
 
 } from '../assets';
 
@@ -59,18 +56,18 @@ const skills = [
       'I am well-versed in React, proficient in creating reusable components and managing application state using hooks and context.',
   },
   {
-    id: 'java',
-    title: 'Java',
-    icon: javaIcon,
+    id: 'next js',
+    title: 'Next JS 13',
+    icon: nextjs,
     description:
-      'I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.',
+      'I have expertise in next js and its related thing with vercel and its deployment also.',
   },
   {
     id: 'aws',
     title: 'Amazon Web Services',
     icon: awsIcon,
     description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
+      'I have done some work in AWS and i like to do more',
   },
   {
     id: 'figma',
@@ -94,13 +91,6 @@ const skills = [
       'I am skilled in using GitHub for seamless project collaboration, code sharing, and issue tracking. Through GitHub, I efficiently create and manage repositories and effectively present my work to potential employers.',
   },
   {
-    id: 'psql',
-    title: 'Postgresql',
-    icon: psqlIcon,
-    description:
-      'I have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.',
-  },
-  {
     id: 'vite',
     title: 'Vite',
     icon: viteIcon,
@@ -112,7 +102,7 @@ const skills = [
     title: 'Python',
     icon: pyIcon,
     description:
-      'With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.',
+      'I started my journey with python and make many projects in it',
   },
   {
     id: 'node',
@@ -120,20 +110,6 @@ const skills = [
     icon: nodeIcon,
     description:
       'When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.',
-  },
-  {
-    id: 'neo',
-    title: 'Neo4j',
-    icon: neoIcon,
-    description:
-      'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
-  },
-  {
-    id: 'raspi',
-    title: 'Raspberry Pi',
-    icon: raspIcon,
-    description:
-      'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
   },
   {
     id: 'eslint',

@@ -17,6 +17,7 @@ import pyIcon from './tech/py.png';
 import nodeIcon from './tech/node.webp';
 import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
+import nextjs from './tech/nextjs.png';
 
 
 
@@ -39,5 +40,6 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
+  nextjs
 
 };

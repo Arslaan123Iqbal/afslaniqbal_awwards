@@ -44,21 +44,27 @@ export default function Header() {
                 </div>
             </div>
             <div className={styles.nav}>
-                <Magnetic>
+            <Magnetic>
                     <div className={styles.el}>
-                        <a>Work</a>
+                        <a href='#home'>Home</a>
                         <div className={styles.indicator}></div>
                     </div>
                 </Magnetic>
                 <Magnetic>
                     <div className={styles.el}>
-                        <a>About</a>
+                        <a href='#skills'>SKills</a>
                         <div className={styles.indicator}></div>
                     </div>
                 </Magnetic>
                 <Magnetic>
                     <div className={styles.el}>
-                        <a>Contact</a>
+                        <a href='#projects'>Projects</a>
+                        <div className={styles.indicator}></div>
+                    </div>
+                </Magnetic>
+                <Magnetic>
+                    <div className={styles.el}>
+                        <a href='#contacts'>Contact</a>
                         <div className={styles.indicator}></div>
                     </div>
                 </Magnetic>

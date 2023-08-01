@@ -61,7 +61,7 @@ export default function Home() {
   }
 
   return (
-    <motion.main variants={slideUp} initial="initial" animate="enter" className={styles.landing}>
+    <motion.main id='home' variants={slideUp} initial="initial" animate="enter" className={styles.landing}>
       {windowWidth <= 450 ? (
         <Image src="/images/backgroundMobile2.jpeg" fill={true} alt="background" />
       ) : (
